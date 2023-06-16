@@ -13,7 +13,7 @@ int price;
 int weight;
 int quality;
 }
-class Pendant GoldEaring {
+class Pendant extends GoldEaring {
 string name;
 string color;
 int size of pendant;
