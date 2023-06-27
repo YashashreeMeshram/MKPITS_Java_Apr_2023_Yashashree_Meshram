@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK</title>
+</head>
+<body>
+   <button onclick="add()">Click for Addition</button> 
+   <button onclick="sub()">Click for Substraction</button> 
+   <button onclick="mul()">Click for Multiplication</button> 
+   <button onclick="div()">Click for Division</button> 
+   <button onclick="ful()">Click for full name</button> 
+</body>
+<script type="text/javascript">
+    let number1=10,number2=20;
+    let sum=number2+number1;
+    let name1="Yashashree", num2="Meshram";
+    
+    function add(){
+        document.write(sum);
+    }
+    function sub(){
+        let substract=number2-number1;
+        document.write(substract);
+    }
+    function mul(){
+        let multiply=number2*number1;
+        document.write(multiply);
+    }
+    function div(){
+        let divide=number2/number1;
+        document.write(divide);
+    }
+    function ful(){
+        let fullname=name1+num2;
+        document.write(fullname);
+    }
+</script>
+</html>
