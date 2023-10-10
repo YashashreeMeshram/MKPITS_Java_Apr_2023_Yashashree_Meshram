@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Largest Number</h1>
+    <button onclick="LargestNumber()"><h5>ON</h5></button>
+
+    <script>
+        function LargestNumber(){
+            let arr=[54,65,23,56,9,26]
+            let largest=arr[0];
+            for(var i=0;i<arr.length;i++)
+            {
+                if(arr[i]>largest){
+                    largest=arr[i];
+                }
+            }
+            document.write(largest);
+        }
+
+
+
+
+    </script>
+</body>
+</html>
